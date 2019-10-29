@@ -1,0 +1,23 @@
+.legend {
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+    z-index: 1;
+    background-color: white;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    font-size: 75%;
+    border-radius: 0.3rem;
+}
+
+.microsoft-buildings-layer {
+    background-color: hsl(223, 100%, 62%);
+    border: solid grey 1px;
+    margin-right: 1rem;
+}
+
+.edac-buildings-layer {
+    background-color: hsl(63, 100%, 56%);
+    border: solid grey 1px;
+    margin-right: 1rem;
+}
