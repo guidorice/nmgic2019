@@ -1,15 +1,10 @@
 
-import React, { useEffect, useRef, useState, CSSProperties } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import mapboxgl from 'mapbox-gl';
 import mapboxOptions from './mapboxOptions';
+import './Map.css';
 
 mapboxgl.accessToken = process.env.REACT_APP_MAPBOX_ACCESS_TOKEN || '';
-
-const mapContainerStyle: CSSProperties = {
-    width: '100vw',
-    height: '100vh',
-    position: 'absolute'
-};
 
 const Map: React.FC = () => {
     const [map, setMap] = useState<mapboxgl.Map | null>(null);
@@ -29,7 +24,7 @@ const Map: React.FC = () => {
     }, [map]);
 
     return (
-        <div ref={el => (mapContainer.current = el)} style={mapContainerStyle} />
+        <div ref={el => (mapContainer.current = el)} className="map-container" />
     );
 }
 

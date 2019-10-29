@@ -1,10 +1,11 @@
 import React from 'react';
 import Map from './Map';
-import './App.css';
+import Legend from './Legend';
 
 const App: React.FC = () => {
   return (
-    <div className="map-container">
+    <div>
+      <Legend />
       <Map />
     </div>
   );
