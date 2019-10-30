@@ -9,6 +9,6 @@ const App: React.FC = () => {
       <Map />
     </div>
   );
-}
+};
 
 export default App;
