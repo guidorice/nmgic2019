@@ -1,3 +1,19 @@
+# Rio Chama Watershed Building Footprints
+
+## Visualizing Open Data
+
+### Serverless single page web app development using Mapbox, Netlify, React and TypeScript
+
+[NMGIC](https://nmgic.com) 2019 presentation
+
+This app deployment
+https://nmgic2019.ricegeo.dev
+
+The presentation slide-deck
+https://nmgic2019-presentation.ricegeo.dev
+
+---
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
