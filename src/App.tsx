@@ -1,6 +1,7 @@
 import React from 'react';
 import Map from './Map';
 import Legend from './Legend';
+import '../node_modules/mapbox-gl/dist/mapbox-gl.css';
 
 const App: React.FC = () => {
   return (
@@ -9,6 +10,6 @@ const App: React.FC = () => {
       <Map />
     </div>
   );
-}
+};
 
 export default App;

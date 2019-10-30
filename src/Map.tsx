@@ -1,4 +1,3 @@
-
 import React, { useEffect, useRef, useState } from 'react';
 import mapboxgl from 'mapbox-gl';
 import mapboxOptions from './mapboxOptions';
@@ -24,7 +23,7 @@ const Map: React.FC = () => {
     }, [map]);
 
     return (
-        <div ref={el => (mapContainer.current = el)} className="map-container" />
+        <div ref={el => mapContainer.current = el} className="map-container" />
     );
 }
 

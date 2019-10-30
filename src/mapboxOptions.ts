@@ -1,6 +1,6 @@
-import { MapboxOptions, Style } from 'mapbox-gl';
+import { MapboxOptions } from 'mapbox-gl';
 
-const style : any = {
+const style: any = {
     "version": 8,
     "name": "Satellite Streets",
     "metadata": {
@@ -53,7 +53,7 @@ const style : any = {
             "id": "background",
             "type": "background",
             "layout": {},
-            "paint": {"background-color": "hsl(222, 56%, 4%)"}
+            "paint": {"background-color": "black"}
         },
         {
             "id": "satellite",
