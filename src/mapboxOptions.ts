@@ -2,8 +2,8 @@ import { MapboxOptions } from 'mapbox-gl';
 
 const options: MapboxOptions = {
     container: '',
-    center: [-106.5604504, 36.7009819], // tierra amarilla
-    zoom: 15,
+    center: [-106.5521572, 36.6989067], // tierra amarilla, nm
+    zoom: 16,
     style: {
         version: 8,
         metadata: {
@@ -11,11 +11,13 @@ const options: MapboxOptions = {
         },
         sources: {
             'microsoft-building-footprints': {
-                url: 'mapbox://agr.0y36gd2l', 'type': 'vector',
+                url: 'mapbox://agr.9gf1784j', 
+                type: 'vector',
                 attribution: '© Microsoft under the Open Data Commons Open Database License (ODbL)'
             },
             'riochama-building-footprints': {
-                'url': 'mapbox://agr.5j3t7kjc', 'type': 'vector',
+                'url': 'mapbox://agr.2xiolioq', 
+                type: 'vector',
                 attribution: '© Shawn Penman, Earth Data Analysis Center'
             },
             satellite: {
@@ -38,10 +40,10 @@ const options: MapboxOptions = {
                 'source-layer': 'mapbox_satellite_full'
             },
             {
-                id: 'microsoftriochamabuildingfootprints',
+                id: 'microsoft-building-footprints',
                 type: 'line',
                 source: 'microsoft-building-footprints',
-                'source-layer': 'microsoftriochamabuildingfootprints',
+                'source-layer': 'NewMexico',
                 paint: { 'line-color': 'hsl(223, 100%, 62%)', 'line-width': 3 }
             },
             {
