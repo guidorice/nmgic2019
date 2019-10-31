@@ -13,3 +13,12 @@ https://nmgic2019.ricegeo.dev
 
 The presentation slide-deck
 https://nmgic2019-presentation.ricegeo.dev
+
+## Setup for local development
+
+```bash
+git clone https://github.com/guidorice/nmgic2019.git
+cd nmgic2019
+export REACT_APP_MAPBOX_ACCESS_TOKEN=****
+yarn start
+```
