@@ -8,6 +8,8 @@
 
 [NMGIC](https://nmgic.com) 2019 presentation
 
+🌵Blog post https://blog.ricegeo.dev/nmgic-2019/
+
 This app deployment
 https://nmgic2019.ricegeo.dev
 
